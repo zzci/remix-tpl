@@ -1,0 +1,6 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Documentation
+    url: https://env.ls/docs
+    about:
+      Learn more about the stack and how to use it

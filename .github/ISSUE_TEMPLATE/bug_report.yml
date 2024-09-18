@@ -1,0 +1,34 @@
+name: 🐛 Bug Report
+description: Something is wrong with the Stack.
+body:
+  - type: markdown
+    attributes:
+      value: >-
+        Thanks for helping us improve!
+
+        We're limited in our bandwidth for maintaining these stacks. As a team, we're currently focusing our efforts on ourselves. The good news is you can fork this stack, tweak it however you want, and start using it right away as a custom stack.
+
+        If you still want to report a bug, please fill out this form. We can't promise a quick response, but hopefully, when we have the bandwidth to tackle these stacks again, we can take a look. Thanks!
+  - type: input
+    attributes:
+      label: Have you experienced this bug with the latest version of the template?
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Steps to Reproduce
+      description: Steps to reproduce the behavior.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Expected Behavior
+      description: A concise description of what you expected to happen.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Actual Behavior
+      description: A concise description of what you're experiencing.
+    validations:
+      required: true
